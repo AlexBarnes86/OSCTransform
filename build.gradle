@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.toastedbits'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = 'com.toastedbits.osc.transform.MultiLaunch'
+
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.0.1'
+    implementation 'com.illposed.osc:javaosc-core:0.7'
+
+    testImplementation 'junit:junit:4.12'
+}
