@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<OSCInputGroup>
+  <oscMessage>/wek/inputs</oscMessage>
+  <numInputs>14</numInputs>
+  <groupName>Inputs</groupName>
+  <inputNames>
+    <string>/pose/position/x</string>
+    <string>/pose/position/y</string>
+    <string>/pose/scale</string>
+    <string>/pose/orientation/x</string>
+    <string>/pose/orientation/y</string>
+    <string>/pose/orientation/z</string>
+    <string>/gesture/mouth/width</string>
+    <string>/gesture/mouth/height</string>
+    <string>/gesture/eyebrow/left</string>
+    <string>/gesture/eyebrow/right</string>
+    <string>/gesture/eye/left</string>
+    <string>/gesture/eye/right</string>
+    <string>/gesture/jaw</string>
+    <string>/gesture/nostrils</string>
+  </inputNames>
+</OSCInputGroup>
